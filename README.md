@@ -56,11 +56,12 @@ served from `unpkg.com` via CDN.
 
 ## Why this scope
 
-InPost asked for an analysis of "the InPost parcel locker network." The
-obvious candidate is a smart finder over the API — that's what most candidates
-will build. Density Atlas is a deliberate differentiation play: an
-analytical pipeline that surfaces **where coverage concentrates and where it
-doesn't**, which is the actual question a logistics operator cares about.
+The brief leaves the choice of angle to the candidate. The obvious play is a
+smart finder over the API — pin every locker on a map, add filters, ship it.
+That's what most candidates will build. Density Atlas takes a different angle
+on purpose: an analytical pipeline that surfaces **where coverage concentrates
+and where it doesn't**, which is the question a logistics operator actually
+asks about its own network.
 
 The narrow scope (Poland only, voivodship granularity, 16 buckets) is
 deliberate. Depth over breadth on a 3-day deadline.

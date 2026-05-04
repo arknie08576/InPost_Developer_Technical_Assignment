@@ -40,6 +40,7 @@ output/
 
 ### Handoff doc — do not publish ###
 PROJECT_CONTEXT.md
+POWIAT_CONTEXT.md
 
 
 .claude/

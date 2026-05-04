@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Timestamp;
 import java.time.Instant;
 import java.util.List;
 import java.util.Map;
@@ -162,10 +161,5 @@ public class LockerRepository {
 
     private static Instant parseInstant(String iso) {
         return iso == null ? null : Instant.parse(iso);
-    }
-
-    @SuppressWarnings("unused")
-    private static Timestamp toTimestamp(Instant i) {
-        return i == null ? null : Timestamp.from(i);
     }
 }
