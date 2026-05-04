@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <title>InPost Density Atlas — Polska</title>
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          crossorigin=""/>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --panel: #1e293b;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+            --accent: #facc15;
+            --row-hover: rgba(250, 204, 21, 0.15);
+        }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; background: #f8fafc; color: #0f172a;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, sans-serif; }
+        header { background: var(--bg); color: var(--text); padding: 1.25rem 2rem; }
+        header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 0.02em; }
+        header .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.35rem; }
+        header .summary { color: var(--text); font-size: 0.95rem; margin-top: 0.5rem; }
+        main { display: grid; grid-template-columns: minmax(0, 2fr) minmax(360px, 1fr);
+            gap: 1rem; padding: 1rem; min-height: calc(100vh - 160px); }
+        @media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
+        #map { height: 78vh; min-height: 540px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        aside { background: #fff; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            padding: 1rem; overflow: hidden; display: flex; flex-direction: column; }
+        .toggle { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+        .toggle button { flex: 1; padding: 0.5rem 0.75rem; font-size: 0.85rem;
+            border: 1px solid #cbd5e1; background: #fff; cursor: pointer; border-radius: 4px;
+            transition: background 0.15s; }
+        .toggle button.active { background: #0f172a; color: #fff; border-color: #0f172a; }
+        .toggle button:hover:not(.active) { background: #f1f5f9; }
+        table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+        thead th { background: #f1f5f9; padding: 0.5rem 0.5rem; text-align: left;
+            border-bottom: 2px solid #cbd5e1; cursor: pointer; user-select: none;
+            position: sticky; top: 0; }
+        thead th .arrow { color: var(--muted); margin-left: 0.25rem; }
+        tbody td { padding: 0.4rem 0.5rem; border-bottom: 1px solid #e2e8f0; }
+        tbody tr:hover { background: var(--row-hover); }
+        tbody tr.highlighted { background: rgba(250, 204, 21, 0.35); }
+        tbody td.num { font-variant-numeric: tabular-nums; text-align: right; }
+        .legend { background: #fff; padding: 0.5rem 0.75rem; border-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.15); font-size: 0.75rem; line-height: 1.4; }
+        .legend .swatch { display: inline-block; width: 14px; height: 14px;
+            margin-right: 6px; vertical-align: middle; opacity: 0.85; }
+        .leaflet-tooltip.atlas-tooltip { background: rgba(15, 23, 42, 0.95);
+            color: #f8fafc; border: none; padding: 0.5rem 0.75rem; font-size: 0.8rem; }
+        .leaflet-tooltip.atlas-tooltip strong { color: var(--accent); }
+        footer { padding: 0.75rem 2rem; color: #64748b; font-size: 0.75rem; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>InPost Density Atlas — Polska</h1>
+    <div class="meta">Wygenerowano: {{GENERATED_AT}} • dane GUS: populacja i powierzchnia na 31.12.2023</div>
+    <div class="summary">{{SUMMARY}}</div>
+</header>
+<main>
+    <section id="map"></section>
+    <aside>
+        <div class="toggle">
+            <button type="button" data-metric="densityPerKm2" class="active">na km²</button>
+            <button type="button" data-metric="densityPer100kPeople">na 100k mieszkańców</button>
+        </div>
+        <div style="overflow-y: auto; flex: 1;">
+            <table id="metrics-table">
+                <thead>
+                <tr>
+                    <th data-sort="displayName">Województwo<span class="arrow"></span></th>
+                    <th data-sort="lockerCount" class="num">Paczkomaty<span class="arrow"></span></th>
+                    <th data-sort="densityPerKm2" class="num">/km²<span class="arrow"></span></th>
+                    <th data-sort="densityPer100kPeople" class="num">/100k<span class="arrow"></span></th>
+                    <th data-sort="pct247" class="num">% 24h<span class="arrow"></span></th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </aside>
+</main>
+<footer>
+    InPost Developer Technical Assignment • źródło danych:
+    <code>api-global-points.easypack24.net/v1/points</code> •
+    granice województw: ppatrzyk/polska-geojson
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+    const GEOJSON = {{GEOJSON}};
+    const METRICS = {{DATA}};
+
+    const metricsByKey = {};
+    METRICS.forEach(m => { metricsByKey[m.key] = m; });
+
+    let activeMetric = "densityPerKm2";
+    let sortKey = "rankByDensityPerKm2";
+    let sortDir = 1;
+
+    const map = L.map("map", { scrollWheelZoom: true }).setView([52.05, 19.3], 6);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+        maxZoom: 12
+    }).addTo(map);
+
+    function quantileBreaks(values, n) {
+        const sorted = [...values].sort((a, b) => a - b);
+        const breaks = [];
+        for (let i = 1; i < n; i++) {
+            const idx = Math.floor((i / n) * sorted.length);
+            breaks.push(sorted[Math.min(idx, sorted.length - 1)]);
+        }
+        return breaks;
+    }
+
+    const PALETTE = ["#fef3c7", "#fde68a", "#fbbf24", "#f59e0b", "#d97706", "#92400e"];
+
+    function colorFor(value, breaks) {
+        if (value == null || isNaN(value)) return "#e5e7eb";
+        for (let i = 0; i < breaks.length; i++) {
+            if (value <= breaks[i]) return PALETTE[i];
+        }
+        return PALETTE[PALETTE.length - 1];
+    }
+
+    let geoLayer = null;
+    let legendControl = null;
+
+    function styleFor(feature, breaks) {
+        const key = (feature.properties.nazwa || "").toLowerCase();
+        const m = metricsByKey[key];
+        const v = m ? m[activeMetric] : null;
+        return {
+            fillColor: colorFor(v, breaks),
+            weight: 1,
+            opacity: 1,
+            color: "#475569",
+            fillOpacity: 0.78
+        };
+    }
+
+    function tooltipHtml(feature) {
+        const key = (feature.properties.nazwa || "").toLowerCase();
+        const m = metricsByKey[key];
+        if (!m) return `<strong>${feature.properties.nazwa}</strong><br/>brak danych`;
+        return `
+            <strong>${m.displayName}</strong><br/>
+            Paczkomaty: <b>${m.lockerCount.toLocaleString("pl-PL")}</b><br/>
+            Działające: ${m.operatingCount.toLocaleString("pl-PL")} (${m.pctAccessible.toFixed(1)}% accessible)<br/>
+            24h: ${m.count247.toLocaleString("pl-PL")} (${m.pct247.toFixed(1)}%)<br/>
+            Gęstość: ${m.densityPerKm2.toFixed(3)}/km² · ${m.densityPer100kPeople.toFixed(1)}/100k<br/>
+            Populacja: ${m.population.toLocaleString("pl-PL")} · ${Math.round(m.areaKm2).toLocaleString("pl-PL")} km²<br/>
+            Ranking: #${m.rankByDensityPerKm2} /km² · #${m.rankByDensityPer100kPeople} /100k
+        `;
+    }
+
+    function renderLayer() {
+        if (geoLayer) {
+            geoLayer.remove();
+        }
+        const values = METRICS.map(m => m[activeMetric]).filter(v => v != null);
+        const breaks = quantileBreaks(values, PALETTE.length);
+
+        geoLayer = L.geoJSON(GEOJSON, {
+            style: f => styleFor(f, breaks),
+            onEachFeature: (feature, layer) => {
+                layer.bindTooltip(tooltipHtml(feature), {
+                    sticky: true,
+                    className: "atlas-tooltip"
+                });
+                layer.on({
+                    mouseover: e => {
+                        e.target.setStyle({ weight: 2.5, color: "#0f172a", fillOpacity: 0.92 });
+                        const key = (feature.properties.nazwa || "").toLowerCase();
+                        highlightTableRow(key);
+                    },
+                    mouseout: e => {
+                        geoLayer.resetStyle(e.target);
+                        clearTableHighlight();
+                    },
+                    click: e => map.fitBounds(e.target.getBounds())
+                });
+            }
+        }).addTo(map);
+
+        renderLegend(breaks);
+    }
+
+    function renderLegend(breaks) {
+        if (legendControl) {
+            legendControl.remove();
+        }
+        legendControl = L.control({ position: "bottomright" });
+        legendControl.onAdd = () => {
+            const div = L.DomUtil.create("div", "legend");
+            const label = activeMetric === "densityPerKm2" ? "paczkomaty / km²" : "paczkomaty / 100k mieszkańców";
+            const fmt = activeMetric === "densityPerKm2"
+                ? v => v.toFixed(2)
+                : v => v.toFixed(1);
+            div.innerHTML = `<b>${label}</b><br/>`;
+            const ranges = [];
+            ranges.push(`&le; ${fmt(breaks[0])}`);
+            for (let i = 1; i < breaks.length; i++) {
+                ranges.push(`${fmt(breaks[i - 1])} – ${fmt(breaks[i])}`);
+            }
+            ranges.push(`&gt; ${fmt(breaks[breaks.length - 1])}`);
+            ranges.forEach((r, i) => {
+                div.innerHTML += `<div><span class="swatch" style="background:${PALETTE[i]}"></span>${r}</div>`;
+            });
+            return div;
+        };
+        legendControl.addTo(map);
+    }
+
+    function renderTable() {
+        const tbody = document.querySelector("#metrics-table tbody");
+        const rows = [...METRICS].sort((a, b) => {
+            const av = a[sortKey], bv = b[sortKey];
+            if (typeof av === "string") return av.localeCompare(bv) * sortDir;
+            return ((av ?? 0) - (bv ?? 0)) * sortDir;
+        });
+        tbody.innerHTML = rows.map(m => `
+            <tr data-key="${m.key}">
+                <td>${m.displayName}</td>
+                <td class="num">${m.lockerCount.toLocaleString("pl-PL")}</td>
+                <td class="num">${m.densityPerKm2.toFixed(3)}</td>
+                <td class="num">${m.densityPer100kPeople.toFixed(1)}</td>
+                <td class="num">${m.pct247.toFixed(1)}</td>
+            </tr>
+        `).join("");
+        document.querySelectorAll("#metrics-table thead th").forEach(th => {
+            const arrow = th.querySelector(".arrow");
+            arrow.textContent = th.dataset.sort === sortKey ? (sortDir === 1 ? "▲" : "▼") : "";
+        });
+    }
+
+    function highlightTableRow(key) {
+        document.querySelectorAll("#metrics-table tbody tr").forEach(tr => {
+            tr.classList.toggle("highlighted", tr.dataset.key === key);
+        });
+    }
+    function clearTableHighlight() {
+        document.querySelectorAll("#metrics-table tbody tr.highlighted")
+            .forEach(tr => tr.classList.remove("highlighted"));
+    }
+
+    document.querySelectorAll(".toggle button").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".toggle button").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            activeMetric = btn.dataset.metric;
+            sortKey = activeMetric;
+            sortDir = -1;
+            renderLayer();
+            renderTable();
+        });
+    });
+
+    document.querySelectorAll("#metrics-table thead th").forEach(th => {
+        th.addEventListener("click", () => {
+            const k = th.dataset.sort;
+            if (sortKey === k) {
+                sortDir *= -1;
+            } else {
+                sortKey = k;
+                sortDir = (k === "displayName") ? 1 : -1;
+            }
+            renderTable();
+        });
+    });
+
+    renderLayer();
+    renderTable();
+</script>
+</body>
+</html>
