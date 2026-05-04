@@ -1,11 +1,14 @@
 package com.inpostatlas.cli;
 
 import com.inpostatlas.analysis.AggregationResult;
+import com.inpostatlas.analysis.PowiatAggregationResult;
+import com.inpostatlas.analysis.PowiatAggregator;
 import com.inpostatlas.analysis.VoivodshipAggregator;
 import com.inpostatlas.api.InPostClient;
 import com.inpostatlas.reference.PopulationData;
 import com.inpostatlas.report.CsvReportWriter;
 import com.inpostatlas.report.HtmlReportWriter;
+import com.inpostatlas.report.PowiatCsvReportWriter;
 import com.inpostatlas.storage.LockerMapper;
 import com.inpostatlas.storage.LockerRepository;
 import com.inpostatlas.storage.LockerRow;
@@ -31,23 +34,29 @@ public class AtlasCommandRunner implements CommandLineRunner {
     private final InPostClient client;
     private final LockerRepository repository;
     private final PopulationData populationData;
-    private final VoivodshipAggregator aggregator;
+    private final VoivodshipAggregator voivodshipAggregator;
+    private final PowiatAggregator powiatAggregator;
     private final CsvReportWriter csvWriter;
+    private final PowiatCsvReportWriter powiatCsvWriter;
     private final HtmlReportWriter htmlWriter;
     private final String country;
 
     public AtlasCommandRunner(InPostClient client,
                               LockerRepository repository,
                               PopulationData populationData,
-                              VoivodshipAggregator aggregator,
+                              VoivodshipAggregator voivodshipAggregator,
+                              PowiatAggregator powiatAggregator,
                               CsvReportWriter csvWriter,
+                              PowiatCsvReportWriter powiatCsvWriter,
                               HtmlReportWriter htmlWriter,
                               @Value("${atlas.fetch.country}") String country) {
         this.client = client;
         this.repository = repository;
         this.populationData = populationData;
-        this.aggregator = aggregator;
+        this.voivodshipAggregator = voivodshipAggregator;
+        this.powiatAggregator = powiatAggregator;
         this.csvWriter = csvWriter;
+        this.powiatCsvWriter = powiatCsvWriter;
         this.htmlWriter = htmlWriter;
         this.country = country;
     }
@@ -70,16 +79,48 @@ public class AtlasCommandRunner implements CommandLineRunner {
             doFetch();
         }
         if (analyze || writeCsv || writeHtml) {
-            AggregationResult result = doAnalyze();
+            List<LockerRow> rows = loadLockers();
+            AggregationResult voivResult = analyzeVoivodships(rows);
+            PowiatAggregationResult powiatResult = analyzePowiats(rows);
+
             if (writeCsv) {
-                Path csv = csvWriter.write(result);
-                log.info("CSV report written: {}", csv.toAbsolutePath());
+                Path csv = csvWriter.write(voivResult);
+                log.info("Voivodship CSV: {}", csv.toAbsolutePath());
+                Path powiatCsv = powiatCsvWriter.write(powiatResult);
+                log.info("Powiat CSV:     {}", powiatCsv.toAbsolutePath());
             }
             if (writeHtml) {
-                Path html = htmlWriter.write(result);
-                log.info("HTML report written: {}", html.toAbsolutePath());
+                Path html = htmlWriter.write(voivResult, powiatResult);
+                log.info("HTML report:    {}", html.toAbsolutePath());
             }
         }
+    }
+
+    private List<LockerRow> loadLockers() {
+        List<LockerRow> rows = repository.findByCountry(country);
+        if (rows.isEmpty()) {
+            log.error("No lockers in DB for country={}. Run with --fetch first.", country);
+            throw new IllegalStateException("Empty database - run --fetch first");
+        }
+        return rows;
+    }
+
+    private AggregationResult analyzeVoivodships(List<LockerRow> rows) {
+        log.info("Aggregating per voivodship...");
+        AggregationResult result = voivodshipAggregator.aggregate(rows, populationData.all());
+        log.info("Voivodships: {} buckets, {} lockers, {} unmatched",
+                result.metrics().size(), result.totalLockers(), result.unmatchedLockers());
+        return result;
+    }
+
+    private PowiatAggregationResult analyzePowiats(List<LockerRow> rows) {
+        log.info("Aggregating per powiat (point-in-polygon over 380 polygons)...");
+        long t0 = System.currentTimeMillis();
+        PowiatAggregationResult result = powiatAggregator.aggregate(rows);
+        long t1 = System.currentTimeMillis();
+        log.info("Powiats: {} buckets, {} lockers, {} unmatched (took {} ms)",
+                result.metrics().size(), result.totalLockers(), result.unmatchedLockers(), t1 - t0);
+        return result;
     }
 
     private void doFetch() {
@@ -108,26 +149,13 @@ public class AtlasCommandRunner implements CommandLineRunner {
             String raw = entry.getKey();
             String norm = raw == null ? null : com.inpostatlas.analysis.ProvinceNormalizer.normalize(raw);
             if (norm == null || !known.contains(norm)) {
-                log.warn("Unknown province in DB: '{}' ({} lockers) — will not be aggregated", raw, entry.getValue());
+                log.warn("Unknown province in DB: '{}' ({} lockers) - will not be aggregated", raw, entry.getValue());
                 suspicious += entry.getValue();
             }
         }
         if (suspicious == 0) {
             log.info("All {} province values map cleanly to the 16 known voivodships", seen.size());
         }
-    }
-
-    private AggregationResult doAnalyze() {
-        log.info("Analyzing lockers for country={}...", country);
-        List<LockerRow> rows = repository.findByCountry(country);
-        if (rows.isEmpty()) {
-            log.error("No lockers in DB for country={}. Run with --fetch first.", country);
-            throw new IllegalStateException("Empty database — run --fetch first");
-        }
-        AggregationResult result = aggregator.aggregate(rows, populationData.all());
-        log.info("Aggregated {} lockers across {} voivodships ({} unmatched)",
-                result.totalLockers(), result.metrics().size(), result.unmatchedLockers());
-        return result;
     }
 
     private void printHelp() {
@@ -138,10 +166,10 @@ public class AtlasCommandRunner implements CommandLineRunner {
 
                 Flags:
                   --fetch       Pull all PL lockers from the public API into the local SQLite DB
-                  --analyze    Aggregate metrics per voivodship (requires data in DB)
-                  --csv         Write CSV report only
-                  --html        Write HTML report only
-                  --report      Write both CSV and HTML
+                  --analyze     Aggregate metrics per voivodship and per powiat (requires data in DB)
+                  --csv         Write CSV reports (voivodship + powiat)
+                  --html        Write the standalone HTML choropleth (voivodship + powiat layers)
+                  --report      Write both CSVs and HTML
                   --all         Equivalent to --fetch --analyze --report
                   --help, -h    Print this help
 
