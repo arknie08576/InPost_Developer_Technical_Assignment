@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: inpost-atlas
+  main:
+    web-application-type: none
+    banner-mode: "off"
+    log-startup-info: false
+  datasource:
+    url: jdbc:sqlite:${atlas.database.path}
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      maximum-pool-size: 1
+      pool-name: atlas-sqlite
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      continue-on-error: false
+
+logging:
+  level:
+    root: WARN
+    com.inpostatlas: INFO
+    org.springframework.jdbc.datasource.init.ScriptUtils: WARN
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level %logger{20} - %msg%n"
+
+atlas:
+  api:
+    base-url: https://api-global-points.easypack24.net
+    points-path: /v1/points
+    per-page: 500
+    connect-timeout-seconds: 10
+    read-timeout-seconds: 60
+    max-retries: 4
+    retry-backoff-ms: 1500
+  fetch:
+    country: PL
+  database:
+    path: ./atlas.db
+  output:
+    directory: ./output
