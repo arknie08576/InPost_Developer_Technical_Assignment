@@ -60,8 +60,16 @@ Outputs land in `./output/`. The local DB lives at `./atlas.db` (gitignored).
 Re-running `--fetch` upserts on `name`, so subsequent runs are idempotent.
 
 Open `output/voivodship_density.html` in any modern browser. The HTML file
-embeds the GeoJSON and the metrics; the only external dependency is Leaflet
-served from `unpkg.com` via CDN.
+embeds both GeoJSON layers and both metrics arrays; the only external
+dependency is Leaflet served from `unpkg.com` via CDN.
+
+> **Windows note.** The bundled Maven Wrapper downloads Maven on first run
+> via `curl`, and Schannel may reject the cert with `CRYPT_E_NO_REVOCATION_CHECK`.
+> Workarounds, in order of effort: install a system Maven and use `mvn` instead
+> of `./mvnw`; or set `MVNW_REPOURL` to a mirror your machine trusts; or run
+> the wrapper from PowerShell with `$env:MAVEN_WRAPPER_USE_CURL_INSECURE=1`
+> if you patch the script. The project itself has no Windows-specific
+> behaviour — only the wrapper download path does.
 
 ---
 
