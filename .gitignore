@@ -41,3 +41,6 @@ output/
 ### Handoff doc — do not publish ###
 PROJECT_CONTEXT.md
 
+
+.claude/
+
