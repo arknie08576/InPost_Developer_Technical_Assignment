@@ -1,0 +1,381 @@
+key,display_name,voivodship,population,area_km2,locker_count,operating_count,count_247,count_accessible,density_per_km2,density_per_100k_people,pct_247,pct_accessible,rank_density_km2,rank_density_100k
+powiat Warszawa__mazowieckie,Warszawa (miasto na prawach powiatu),mazowieckie,1793579,517.24,1776,1679,1432,1544,3.4336,99.02,80.63,86.94,1,58
+powiat Białystok__podlaskie,Białystok (miasto na prawach powiatu),podlaskie,297585,102.13,270,260,204,222,2.6437,90.73,75.56,82.22,2,104
+powiat Kraków__małopolskie,Kraków (miasto na prawach powiatu),małopolskie,780981,326.85,814,777,666,692,2.4904,104.23,81.82,85.01,3,34
+powiat Chorzów__śląskie,Chorzów (miasto na prawach powiatu),śląskie,107443,33.24,81,79,70,72,2.4368,75.39,86.42,88.89,4,244
+powiat Poznań__wielkopolskie,Poznań (miasto na prawach powiatu),wielkopolskie,533830,261.91,609,590,483,515,2.3252,114.08,79.31,84.56,5,11
+powiat Wrocław__dolnośląskie,Wrocław (miasto na prawach powiatu),dolnośląskie,643782,292.82,673,637,536,587,2.2983,104.54,79.64,87.22,6,31
+powiat Łódź__łódzkie,Łódź (miasto na prawach powiatu),łódzkie,677286,293.25,598,573,498,522,2.0392,88.29,83.28,87.29,7,128
+powiat Świętochłowice__śląskie,Świętochłowice (miasto na prawach powiatu),śląskie,49363,13.31,27,25,22,23,2.0285,54.70,81.48,85.19,8,370
+powiat Leszno__wielkopolskie,Leszno (miasto na prawach powiatu),wielkopolskie,63323,31.86,60,59,51,53,1.8832,94.75,85.00,88.33,9,80
+powiat Siedlce__mazowieckie,Siedlce (miasto na prawach powiatu),mazowieckie,78258,31.86,60,56,50,51,1.8832,76.67,83.33,85.00,10,233
+powiat Lublin__lubelskie,Lublin (miasto na prawach powiatu),lubelskie,339547,147.47,269,260,238,241,1.8241,79.22,88.48,89.59,11,216
+powiat Gdańsk__pomorskie,Gdańsk (miasto na prawach powiatu),pomorskie,471525,261.96,466,436,390,407,1.7789,98.83,83.69,87.34,12,59
+powiat Zamość__lubelskie,Zamość (miasto na prawach powiatu),lubelskie,63223,30.34,52,52,39,45,1.7139,82.25,75.00,86.54,13,186
+powiat Katowice__śląskie,Katowice (miasto na prawach powiatu),śląskie,291774,164.64,277,265,234,242,1.6825,94.94,84.48,87.36,14,77
+powiat Bytom__śląskie,Bytom (miasto na prawach powiatu),śląskie,164447,69.44,116,112,103,105,1.6705,70.54,88.79,90.52,15,280
+powiat Sosnowiec__śląskie,Sosnowiec (miasto na prawach powiatu),śląskie,198996,91.06,149,147,124,132,1.6363,74.88,83.22,88.59,16,252
+powiat Bydgoszcz__kujawsko-pomorskie,Bydgoszcz (miasto na prawach powiatu),kujawsko-pomorskie,346739,175.98,277,266,243,255,1.5740,79.89,87.73,92.06,17,209
+powiat Olsztyn__warmińsko-mazurskie,Olsztyn (miasto na prawach powiatu),warmińsko-mazurskie,171853,88.33,138,122,124,124,1.5623,80.30,89.86,89.86,18,203
+powiat Gdynia__pomorskie,Gdynia (miasto na prawach powiatu),pomorskie,245867,135.14,202,183,174,182,1.4947,82.16,86.14,90.10,19,188
+powiat Ruda Śląska__śląskie,Ruda Śląska (miasto na prawach powiatu),śląskie,137030,77.73,116,114,99,105,1.4923,84.65,85.34,90.52,20,159
+powiat Siemianowice Śląskie__śląskie,Siemianowice Śląskie (miasto na prawach powiatu),śląskie,66587,25.50,36,36,34,34,1.4118,54.06,94.44,94.44,21,372
+powiat Rzeszów__podkarpackie,Rzeszów (miasto na prawach powiatu),podkarpackie,196821,126.61,176,169,146,149,1.3901,89.42,82.95,84.66,22,117
+powiat Toruń__kujawsko-pomorskie,Toruń (miasto na prawach powiatu),kujawsko-pomorskie,201106,115.72,160,156,150,150,1.3826,79.56,93.75,93.75,23,212
+powiat Tarnów__małopolskie,Tarnów (miasto na prawach powiatu),małopolskie,108177,72.38,96,94,83,87,1.3263,88.74,86.46,90.63,24,123
+powiat Łomża__podlaskie,Łomża (miasto na prawach powiatu),podlaskie,62795,32.67,43,42,38,38,1.3162,68.48,88.37,88.37,25,300
+powiat Kalisz__wielkopolskie,Kalisz (miasto na prawach powiatu),wielkopolskie,99761,69.42,90,86,68,71,1.2965,90.22,75.56,78.89,26,109
+powiat Gorzów Wielkopolski__lubuskie,Gorzów Wielkopolski (miasto na prawach powiatu),lubuskie,123341,85.72,111,106,94,100,1.2949,89.99,84.68,90.09,27,113
+powiat Grudziądz__kujawsko-pomorskie,Grudziądz (miasto na prawach powiatu),kujawsko-pomorskie,94076,57.76,74,68,61,65,1.2812,78.66,82.43,87.84,28,218
+powiat Chełm__lubelskie,Chełm (miasto na prawach powiatu),lubelskie,61588,35.28,45,44,42,42,1.2755,73.07,93.33,93.33,29,260
+powiat Słupsk__pomorskie,Słupsk (miasto na prawach powiatu),pomorskie,90320,43.15,55,50,42,47,1.2746,60.89,76.36,85.45,30,341
+powiat Sopot__pomorskie,Sopot (miasto na prawach powiatu),pomorskie,35562,17.28,22,20,18,18,1.2731,61.86,81.82,81.82,31,338
+powiat Radom__mazowieckie,Radom (miasto na prawach powiatu),mazowieckie,210532,111.80,142,134,119,122,1.2701,67.45,83.80,85.92,32,314
+powiat Zabrze__śląskie,Zabrze (miasto na prawach powiatu),śląskie,171691,80.40,100,98,88,90,1.2438,58.24,88.00,90.00,33,354
+powiat Kielce__świętokrzyskie,Kielce (miasto na prawach powiatu),świętokrzyskie,194218,109.65,136,133,118,120,1.2403,70.02,86.76,88.24,34,286
+powiat Bielsko-Biała__śląskie,Bielsko-Biała (miasto na prawach powiatu),śląskie,170303,124.51,154,148,132,139,1.2368,90.43,85.71,90.26,35,106
+powiat Tychy__śląskie,Tychy (miasto na prawach powiatu),śląskie,127307,81.81,101,99,79,83,1.2346,79.34,78.22,82.18,36,215
+powiat Ostrołęka__mazowieckie,Ostrołęka (miasto na prawach powiatu),mazowieckie,51893,33.46,40,40,36,36,1.1955,77.08,90.00,90.00,37,230
+powiat Gliwice__śląskie,Gliwice (miasto na prawach powiatu),śląskie,178186,133.88,158,152,141,147,1.1802,88.67,89.24,93.04,38,125
+powiat Legnica__dolnośląskie,Legnica (miasto na prawach powiatu),dolnośląskie,99072,56.29,66,61,62,62,1.1725,66.62,93.94,93.94,39,321
+powiat Szczecin__zachodniopomorskie,Szczecin (miasto na prawach powiatu),zachodniopomorskie,400990,300.60,351,344,282,302,1.1677,87.53,80.34,86.04,40,135
+powiat Skierniewice__łódzkie,Skierniewice (miasto na prawach powiatu),łódzkie,47932,34.60,40,39,31,33,1.1561,83.45,77.50,82.50,41,169
+powiat Elbląg__warmińsko-mazurskie,Elbląg (miasto na prawach powiatu),warmińsko-mazurskie,119097,79.82,87,84,76,77,1.0900,73.05,87.36,88.51,42,261
+powiat Piekary Śląskie__śląskie,Piekary Śląskie (miasto na prawach powiatu),śląskie,54860,39.98,43,43,35,36,1.0755,78.38,81.40,83.72,43,222
+powiat Nowy Sącz__małopolskie,Nowy Sącz (miasto na prawach powiatu),małopolskie,83762,57.58,61,60,53,54,1.0594,72.83,86.89,88.52,44,263
+powiat Częstochowa__śląskie,Częstochowa (miasto na prawach powiatu),śląskie,219278,159.71,167,167,135,138,1.0456,76.16,80.84,82.63,45,238
+powiat Płock__mazowieckie,Płock (miasto na prawach powiatu),mazowieckie,118989,88.04,92,88,80,83,1.0450,77.32,86.96,90.22,46,228
+powiat Wałbrzych__dolnośląskie,Wałbrzych (miasto na prawach powiatu),dolnośląskie,110603,84.70,86,79,74,73,1.0153,77.76,86.05,84.88,47,227
+powiat Żory__śląskie,Żory (miasto na prawach powiatu),śląskie,62670,64.64,63,63,58,59,0.9746,100.53,92.06,93.65,48,52
+powiat Koszalin__zachodniopomorskie,Koszalin (miasto na prawach powiatu),zachodniopomorskie,106880,98.34,93,88,80,82,0.9457,87.01,86.02,88.17,49,142
+powiat Krosno__podkarpackie,Krosno (miasto na prawach powiatu),podkarpackie,46139,43.50,41,40,33,33,0.9425,88.86,80.49,80.49,50,120
+powiat Rybnik__śląskie,Rybnik (miasto na prawach powiatu),śląskie,137782,148.36,136,132,127,129,0.9167,98.71,93.38,94.85,51,62
+powiat Biała Podlaska__lubelskie,Biała Podlaska (miasto na prawach powiatu),lubelskie,57194,49.40,43,42,37,37,0.8704,75.18,86.05,86.05,52,248
+powiat Włocławek__kujawsko-pomorskie,Włocławek (miasto na prawach powiatu),kujawsko-pomorskie,109347,84.32,73,72,69,69,0.8657,66.76,94.52,94.52,53,318
+powiat Mysłowice__śląskie,Mysłowice (miasto na prawach powiatu),śląskie,74601,65.62,56,53,48,49,0.8534,75.07,85.71,87.50,54,249
+powiat Suwałki__podlaskie,Suwałki (miasto na prawach powiatu),podlaskie,69786,65.51,51,50,46,46,0.7785,73.08,90.20,90.20,55,259
+powiat Piotrków Trybunalski__łódzkie,Piotrków Trybunalski (miasto na prawach powiatu),łódzkie,72785,67.24,52,51,41,45,0.7733,71.44,78.85,86.54,56,274
+powiat Opole__opolskie,Opole (miasto na prawach powiatu),opolskie,128012,148.88,110,106,98,103,0.7389,85.93,89.09,93.64,57,152
+powiat Jastrzębie-Zdrój__śląskie,Jastrzębie-Zdrój (miasto na prawach powiatu),śląskie,88425,85.33,61,61,58,58,0.7149,68.99,95.08,95.08,58,298
+powiat Przemyśl__podkarpackie,Przemyśl (miasto na prawach powiatu),podkarpackie,60442,46.17,32,30,25,25,0.6931,52.94,78.13,78.13,59,376
+powiat Konin__wielkopolskie,Konin (miasto na prawach powiatu),wielkopolskie,73176,82.31,53,51,46,48,0.6439,72.43,86.79,90.57,60,267
+powiat pruszkowski__mazowieckie,Powiat pruszkowski,mazowieckie,166436,246.30,148,139,130,132,0.6009,88.92,87.84,89.19,61,119
+powiat wodzisławski__śląskie,Powiat wodzisławski,śląskie,156939,286.75,162,156,153,154,0.5650,103.22,94.44,95.06,62,39
+powiat Dąbrowa Górnicza__śląskie,Dąbrowa Górnicza (miasto na prawach powiatu),śląskie,118899,188.73,100,99,94,93,0.5299,84.10,94.00,93.00,63,161
+powiat Zielona Góra__lubuskie,Zielona Góra (miasto na prawach powiatu),lubuskie,141280,278.32,147,144,129,134,0.5282,104.05,87.76,91.16,64,35
+powiat Jelenia Góra__dolnośląskie,Jelenia Góra (miasto na prawach powiatu),dolnośląskie,78778,109.22,55,52,51,51,0.5036,69.82,92.73,92.73,65,288
+powiat mikołowski__śląskie,Powiat mikołowski,śląskie,99211,233.10,107,107,99,100,0.4590,107.85,92.52,93.46,66,24
+powiat bieruńsko-lędziński__śląskie,Powiat bieruńsko-lędziński,śląskie,59864,158.15,67,64,62,62,0.4236,111.92,92.54,92.54,67,16
+powiat Tarnobrzeg__podkarpackie,Tarnobrzeg (miasto na prawach powiatu),podkarpackie,46588,85.40,34,32,30,31,0.3981,72.98,88.24,91.18,68,262
+powiat wielicki__małopolskie,Powiat wielicki,małopolskie,129984,410.78,157,152,138,139,0.3822,120.78,87.90,88.54,69,7
+powiat Jaworzno__śląskie,Jaworzno (miasto na prawach powiatu),śląskie,90759,152.59,58,54,53,53,0.3801,63.91,91.38,91.38,70,331
+powiat oświęcimski__małopolskie,Powiat oświęcimski,małopolskie,153125,405.58,143,142,126,129,0.3526,93.39,88.11,90.21,71,88
+powiat będziński__śląskie,Powiat będziński,śląskie,147816,364.13,128,125,116,117,0.3515,86.59,90.63,91.41,72,149
+powiat bielski__śląskie,Powiat bielski,śląskie,166215,458.64,161,156,150,151,0.3510,96.86,93.17,93.79,73,69
+powiat piaseczyński__mazowieckie,Powiat piaseczyński,mazowieckie,189516,621.00,216,204,196,200,0.3478,113.97,90.74,92.59,74,12
+powiat legionowski__mazowieckie,Powiat legionowski,mazowieckie,119306,390.76,121,116,108,108,0.3097,101.42,89.26,89.26,75,47
+powiat chrzanowski__małopolskie,Powiat chrzanowski,małopolskie,124190,370.12,111,110,100,102,0.2999,89.38,90.09,91.89,76,118
+powiat rybnicki__śląskie,Powiat rybnicki,śląskie,78216,223.64,65,65,62,63,0.2906,83.10,95.38,96.92,77,178
+powiat poznański__wielkopolskie,Powiat poznański,wielkopolskie,403417,1899.88,530,520,458,473,0.2790,131.38,86.42,89.25,78,3
+powiat krakowski__małopolskie,Powiat krakowski,małopolskie,280403,1230.52,325,316,294,297,0.2641,115.90,90.46,91.38,79,10
+powiat pszczyński__śląskie,Powiat pszczyński,śląskie,111682,471.16,123,120,114,117,0.2611,110.13,92.68,95.12,80,21
+powiat wołomiński__mazowieckie,Powiat wołomiński,mazowieckie,251276,953.56,248,234,221,223,0.2601,98.70,89.11,89.92,81,63
+powiat warszawski zachodni__mazowieckie,Powiat warszawski zachodni,mazowieckie,119503,533.79,136,127,123,124,0.2548,113.80,90.44,91.18,82,14
+powiat cieszyński__śląskie,Powiat cieszyński,śląskie,178005,730.29,182,177,162,161,0.2492,102.24,89.01,88.46,83,44
+powiat wadowicki__małopolskie,Powiat wadowicki,małopolskie,159971,645.88,158,156,145,146,0.2446,98.77,91.77,92.41,84,60
+powiat grodziski__mazowieckie,Powiat grodziski,mazowieckie,96698,367.04,85,81,74,75,0.2316,87.90,87.06,88.24,85,133
+powiat otwocki__mazowieckie,Powiat otwocki,mazowieckie,124460,615.92,134,128,128,131,0.2176,107.67,95.52,97.76,86,25
+powiat pabianicki__łódzkie,Powiat pabianicki,łódzkie,119225,492.18,100,97,87,88,0.2032,83.88,87.00,88.00,87,164
+powiat raciborski__śląskie,Powiat raciborski,śląskie,107926,543.76,110,104,101,102,0.2023,101.92,91.82,92.73,88,45
+powiat świdnicki__dolnośląskie,Powiat świdnicki,dolnośląskie,156550,741.14,149,143,129,133,0.2010,95.18,86.58,89.26,89,74
+powiat dębicki__podkarpackie,Powiat dębicki,podkarpackie,135282,777.48,151,130,131,139,0.1942,111.62,86.75,92.05,90,18
+powiat myślenicki__małopolskie,Powiat myślenicki,małopolskie,127872,673.08,125,124,113,116,0.1857,97.75,90.40,92.80,91,68
+powiat gdański__pomorskie,Powiat gdański,pomorskie,119362,793.75,146,140,125,133,0.1839,122.32,85.62,91.10,92,6
+powiat tarnogórski__śląskie,Powiat tarnogórski,śląskie,140799,644.19,118,115,113,113,0.1832,83.81,95.76,95.76,93,165
+powiat zgierski__łódzkie,Powiat zgierski,łódzkie,166154,855.18,154,149,130,130,0.1801,92.69,84.42,84.42,94,92
+powiat dzierżoniowski__dolnośląskie,Powiat dzierżoniowski,dolnośląskie,100519,478.51,85,83,76,76,0.1776,84.56,89.41,89.41,95,160
+powiat pucki__pomorskie,Powiat pucki,pomorskie,87183,581.18,103,95,94,95,0.1772,118.14,91.26,92.23,96,8
+powiat wrocławski__dolnośląskie,Powiat wrocławski,dolnośląskie,153876,1117.70,197,188,184,185,0.1763,128.03,93.40,93.91,97,5
+powiat gliwicki__śląskie,Powiat gliwicki,śląskie,115540,664.37,115,111,105,108,0.1731,99.53,91.30,93.91,98,55
+powiat łańcucki__podkarpackie,Powiat łańcucki,podkarpackie,81144,451.84,75,73,70,71,0.1660,92.43,93.33,94.67,99,95
+powiat bocheński__małopolskie,Powiat bocheński,małopolskie,107023,648.56,107,105,99,99,0.1650,99.98,92.52,92.52,100,54
+powiat brzeski__małopolskie,Powiat brzeski,małopolskie,93125,590.52,96,92,89,91,0.1626,103.09,92.71,94.79,101,41
+powiat olkuski__małopolskie,Powiat olkuski,małopolskie,110900,618.11,100,99,92,92,0.1618,90.17,92.00,92.00,102,110
+powiat żywiecki__śląskie,Powiat żywiecki,śląskie,152450,1040.06,163,155,148,147,0.1567,106.92,90.80,90.18,103,26
+powiat oławski__dolnośląskie,Powiat oławski,dolnośląskie,76831,524.10,82,81,74,75,0.1565,106.73,90.24,91.46,104,28
+powiat ropczycko-sędziszowski__podkarpackie,Powiat ropczycko-sędziszowski,podkarpackie,74582,548.31,85,75,78,78,0.1550,113.97,91.76,91.76,105,13
+powiat głogowski__dolnośląskie,Powiat głogowski,dolnośląskie,88852,443.27,68,66,62,65,0.1534,76.53,91.18,95.59,106,234
+powiat wejherowski__pomorskie,Powiat wejherowski,pomorskie,218766,1285.25,194,190,170,173,0.1509,88.68,87.63,89.18,107,124
+powiat skarżyski__świętokrzyskie,Powiat skarżyski,świętokrzyskie,73567,395.43,59,58,54,54,0.1492,80.20,91.53,91.53,108,205
+powiat łódzki wschodni__łódzkie,Powiat łódzki wschodni,łódzkie,72408,499.76,72,72,63,63,0.1441,99.44,87.50,87.50,109,56
+powiat krapkowicki__opolskie,Powiat krapkowicki,opolskie,63580,441.80,63,63,61,61,0.1426,99.09,96.83,96.83,110,57
+powiat zduńskowolski__łódzkie,Powiat zduńskowolski,łódzkie,66232,369.23,52,50,47,48,0.1408,78.51,90.38,92.31,111,220
+powiat ostrowski__wielkopolskie,Powiat ostrowski,wielkopolskie,161581,1160.12,163,160,145,147,0.1405,100.88,88.96,90.18,112,50
+powiat kartuski__pomorskie,Powiat kartuski,pomorskie,140770,1120.54,156,150,136,136,0.1392,110.82,87.18,87.18,113,19
+powiat tczewski__pomorskie,Powiat tczewski,pomorskie,115641,697.11,97,92,85,89,0.1391,83.88,87.63,91.75,114,163
+powiat Świnoujście__zachodniopomorskie,Świnoujście (miasto na prawach powiatu),zachodniopomorskie,40864,202.07,28,26,19,20,0.1386,68.52,67.86,71.43,115,299
+powiat mielecki__podkarpackie,Powiat mielecki,podkarpackie,136672,880.50,119,115,108,109,0.1352,87.07,90.76,91.60,116,141
+powiat myszkowski__śląskie,Powiat myszkowski,śląskie,70709,479.25,64,64,58,58,0.1335,90.51,90.63,90.63,117,105
+powiat jarociński__wielkopolskie,Powiat jarociński,wielkopolskie,71507,587.29,78,75,72,73,0.1328,109.08,92.31,93.59,118,22
+powiat tarnowski__małopolskie,Powiat tarnowski,małopolskie,201454,1411.58,186,185,168,170,0.1318,92.33,90.32,91.40,119,96
+powiat lubiński__dolnośląskie,Powiat lubiński,dolnośląskie,106106,711.62,92,91,74,79,0.1293,86.71,80.43,85.87,120,147
+powiat suski__małopolskie,Powiat suski,małopolskie,84197,685.71,88,86,79,80,0.1283,104.52,89.77,90.91,121,32
+powiat miński__mazowieckie,Powiat miński,mazowieckie,154942,1163.72,149,147,137,137,0.1280,96.17,91.95,91.95,122,70
+powiat starachowicki__świętokrzyskie,Powiat starachowicki,świętokrzyskie,89152,523.41,66,64,58,58,0.1261,74.03,87.88,87.88,123,256
+powiat żyrardowski__mazowieckie,Powiat żyrardowski,mazowieckie,75616,532.54,66,64,56,57,0.1239,87.28,84.85,86.36,124,138
+powiat limanowski__małopolskie,Powiat limanowski,małopolskie,131997,951.23,115,114,101,102,0.1209,87.12,87.83,88.70,125,140
+powiat rzeszowski__podkarpackie,Powiat rzeszowski,podkarpackie,169986,1147.13,138,133,128,129,0.1203,81.18,92.75,93.48,126,197
+powiat nowotarski__małopolskie,Powiat nowotarski,małopolskie,191882,1474.99,176,171,169,170,0.1193,91.72,96.02,96.59,127,102
+powiat lubański__dolnośląskie,Powiat lubański,dolnośląskie,54070,428.30,50,50,48,48,0.1167,92.47,96.00,96.00,128,94
+powiat tatrzański__małopolskie,Powiat tatrzański,małopolskie,68120,471.65,55,53,51,52,0.1166,80.74,92.73,94.55,129,201
+powiat kędzierzyńsko-kozielski__opolskie,Powiat kędzierzyńsko-kozielski,opolskie,93544,625.13,71,71,66,68,0.1136,75.90,92.96,95.77,130,240
+powiat kościański__wielkopolskie,Powiat kościański,wielkopolskie,79114,722.42,82,80,75,77,0.1135,103.65,91.46,93.90,131,37
+powiat wolsztyński__wielkopolskie,Powiat wolsztyński,wielkopolskie,57534,679.73,77,75,72,73,0.1133,133.83,93.51,94.81,132,1
+powiat wrzesiński__wielkopolskie,Powiat wrzesiński,wielkopolskie,78089,703.57,79,75,68,69,0.1123,101.17,86.08,87.34,133,49
+powiat świdnicki__lubelskie,Powiat świdnicki,lubelskie,71739,468.35,52,46,49,49,0.1110,72.48,94.23,94.23,134,266
+powiat jasielski__podkarpackie,Powiat jasielski,podkarpackie,113226,830.87,92,90,83,83,0.1107,81.25,90.22,90.22,135,193
+powiat brzozowski__podkarpackie,Powiat brzozowski,podkarpackie,65523,539.34,58,56,54,54,0.1075,88.52,93.10,93.10,136,126
+powiat wałbrzyski__dolnośląskie,Powiat wałbrzyski,dolnośląskie,55414,430.22,46,44,40,40,0.1069,83.01,86.96,86.96,137,180
+powiat gnieźnieński__wielkopolskie,Powiat gnieźnieński,wielkopolskie,145393,1255.03,134,132,120,122,0.1068,92.16,89.55,91.04,138,99
+powiat nowosądecki__małopolskie,Powiat nowosądecki,małopolskie,216994,1549.80,165,160,154,155,0.1065,76.04,93.33,93.94,139,239
+powiat ostrowiecki__świętokrzyskie,Powiat ostrowiecki,świętokrzyskie,108436,616.78,65,62,61,62,0.1054,59.94,93.85,95.38,140,347
+powiat kępiński__wielkopolskie,Powiat kępiński,wielkopolskie,56428,608.26,64,64,53,55,0.1052,113.42,82.81,85.94,141,15
+powiat nowosolski__lubuskie,Powiat nowosolski,lubuskie,86014,770.73,81,79,75,75,0.1051,94.17,92.59,92.59,142,85
+powiat przeworski__podkarpackie,Powiat przeworski,podkarpackie,78227,698.02,73,73,67,67,0.1046,93.32,91.78,91.78,143,89
+powiat strzelecki__opolskie,Powiat strzelecki,opolskie,74171,744.27,77,76,74,74,0.1035,103.81,96.10,96.10,144,36
+powiat krotoszyński__wielkopolskie,Powiat krotoszyński,wielkopolskie,77182,713.68,73,72,64,63,0.1023,94.58,87.67,86.30,145,82
+powiat aleksandrowski__kujawsko-pomorskie,Powiat aleksandrowski,kujawsko-pomorskie,55007,474.63,48,47,42,42,0.1011,87.26,87.50,87.50,146,139
+powiat nowotomyski__wielkopolskie,Powiat nowotomyski,wielkopolskie,75675,1013.62,101,101,92,93,0.0996,133.47,91.09,92.08,147,2
+powiat leżajski__podkarpackie,Powiat leżajski,podkarpackie,69233,583.71,58,58,55,55,0.0994,83.78,94.83,94.83,148,166
+powiat pilski__wielkopolskie,Powiat pilski,wielkopolskie,135928,1268.21,126,124,103,109,0.0994,92.70,81.75,86.51,149,91
+powiat policki__zachodniopomorskie,Powiat policki,zachodniopomorskie,81229,665.33,66,63,62,62,0.0992,81.25,93.94,93.94,150,194
+powiat krośnieński__podkarpackie,Powiat krośnieński,podkarpackie,112195,993.11,98,96,91,92,0.0987,87.35,92.86,93.88,151,137
+powiat średzki__wielkopolskie,Powiat średzki,wielkopolskie,59033,623.86,61,61,55,56,0.0978,103.33,90.16,91.80,152,38
+powiat bełchatowski__łódzkie,Powiat bełchatowski,łódzkie,112702,967.60,94,91,86,86,0.0971,83.41,91.49,91.49,153,170
+powiat trzebnicki__dolnośląskie,Powiat trzebnicki,dolnośląskie,85401,1024.78,99,98,94,94,0.0966,115.92,94.95,94.95,154,9
+powiat gorlicki__małopolskie,Powiat gorlicki,małopolskie,108778,966.46,93,88,87,86,0.0962,85.50,93.55,92.47,155,153
+powiat zawierciański__śląskie,Powiat zawierciański,śląskie,117137,1002.23,96,92,90,92,0.0958,81.96,93.75,95.83,156,190
+powiat rawicki__wielkopolskie,Powiat rawicki,wielkopolskie,60233,553.52,53,51,48,49,0.0958,87.99,90.57,92.45,157,131
+powiat oleśnicki__dolnośląskie,Powiat oleśnicki,dolnośląskie,107328,1049.31,99,96,92,93,0.0943,92.24,92.93,93.94,158,98
+powiat jeleniogórski__dolnośląskie,Powiat karkonoski,dolnośląskie,63388,627.14,59,58,58,58,0.0941,93.08,98.31,98.31,159,90
+powiat śremski__wielkopolskie,Powiat śremski,wielkopolskie,61455,574.10,54,54,48,49,0.0941,87.87,88.89,90.74,160,134
+powiat kłobucki__śląskie,Powiat kłobucki,śląskie,84501,888.59,83,81,76,76,0.0934,98.22,91.57,91.57,161,65
+powiat brzeski__opolskie,Powiat brzeski,opolskie,89632,875.96,81,79,72,73,0.0925,90.37,88.89,90.12,162,108
+powiat nyski__opolskie,Powiat nyski,opolskie,135524,1223.88,113,111,106,108,0.0923,83.38,93.81,95.58,163,172
+powiat nowodworski__mazowieckie,Powiat nowodworski,mazowieckie,79427,694.79,64,62,61,61,0.0921,80.58,95.31,95.31,164,202
+powiat leszczyński__wielkopolskie,Powiat leszczyński,wielkopolskie,57544,805.81,74,73,72,72,0.0918,128.60,97.30,97.30,165,4
+powiat prudnicki__opolskie,Powiat prudnicki,opolskie,55091,571.55,52,52,48,48,0.0910,94.39,92.31,92.31,166,83
+powiat bydgoski__kujawsko-pomorskie,Powiat bydgoski,kujawsko-pomorskie,119448,1394.12,126,122,120,120,0.0904,105.49,95.24,95.24,167,30
+powiat grodziski__wielkopolskie,Powiat grodziski,wielkopolskie,51940,641.87,58,56,54,53,0.0904,111.67,93.10,91.38,168,17
+powiat kołobrzeski__zachodniopomorskie,Powiat kołobrzeski,zachodniopomorskie,79399,724.66,65,62,59,59,0.0897,81.87,90.77,90.77,169,191
+powiat częstochowski__śląskie,Powiat częstochowski,śląskie,134341,1522.05,136,133,132,132,0.0894,101.23,97.06,97.06,170,48
+powiat lubliniecki__śląskie,Powiat lubliniecki,śląskie,76326,822.25,73,71,64,65,0.0888,95.64,87.67,89.04,171,72
+powiat jarosławski__podkarpackie,Powiat jarosławski,podkarpackie,120097,1028.66,90,90,85,86,0.0875,74.94,94.44,95.56,172,251
+powiat sochaczewski__mazowieckie,Powiat sochaczewski,mazowieckie,85001,734.80,64,63,59,59,0.0871,75.29,92.19,92.19,173,247
+powiat zgorzelecki__dolnośląskie,Powiat zgorzelecki,dolnośląskie,88770,838.60,73,69,70,71,0.0870,82.23,95.89,97.26,174,187
+powiat malborski__pomorskie,Powiat malborski,pomorskie,63401,494.23,43,43,40,40,0.0870,67.82,93.02,93.02,175,311
+powiat pleszewski__wielkopolskie,Powiat pleszewski,wielkopolskie,62962,713.07,62,60,55,56,0.0869,98.47,88.71,90.32,176,64
+powiat strzyżowski__podkarpackie,Powiat strzyżowski,podkarpackie,61295,503.47,43,43,38,39,0.0854,70.15,88.37,90.70,177,284
+powiat średzki__dolnośląskie,Powiat średzki,dolnośląskie,55356,704.14,60,58,56,56,0.0852,108.39,93.33,93.33,178,23
+powiat tarnobrzeski__podkarpackie,Powiat tarnobrzeski,podkarpackie,52871,521.06,44,42,44,44,0.0844,83.22,100.00,100.00,179,175
+powiat obornicki__wielkopolskie,Powiat obornicki,wielkopolskie,59826,711.04,60,60,53,56,0.0844,100.29,88.33,93.33,180,53
+powiat kielecki__świętokrzyskie,Powiat kielecki,świętokrzyskie,211259,2246.07,189,183,180,181,0.0841,89.46,95.24,95.77,181,116
+powiat gostyński__wielkopolskie,Powiat gostyński,wielkopolskie,75907,810.25,68,67,62,63,0.0839,89.58,91.18,92.65,182,115
+powiat opolski__opolskie,Powiat opolski,opolskie,123813,1534.30,127,124,118,119,0.0828,102.57,92.91,93.70,183,43
+powiat puławski__lubelskie,Powiat puławski,lubelskie,112835,934.09,77,76,69,71,0.0824,68.24,89.61,92.21,184,304
+powiat stalowowolski__podkarpackie,Powiat stalowowolski,podkarpackie,105850,831.74,68,66,62,62,0.0818,64.24,91.18,91.18,185,330
+powiat lęborski__pomorskie,Powiat lęborski,pomorskie,66069,707.77,57,57,53,53,0.0805,86.27,92.98,92.98,186,151
+powiat tomaszowski__łódzkie,Powiat tomaszowski,łódzkie,116141,1024.79,82,81,74,74,0.0800,70.60,90.24,90.24,187,279
+powiat sandomierski__świętokrzyskie,Powiat sandomierski,świętokrzyskie,76736,675.89,54,54,47,49,0.0799,70.37,87.04,90.74,188,281
+powiat wyszkowski__mazowieckie,Powiat wyszkowski,mazowieckie,74283,876.43,70,70,58,63,0.0799,94.23,82.86,90.00,189,84
+powiat proszowicki__małopolskie,Powiat proszowicki,małopolskie,43160,414.87,33,32,29,29,0.0795,76.46,87.88,87.88,190,235
+powiat dąbrowski__małopolskie,Powiat dąbrowski,małopolskie,59147,530.25,42,42,41,41,0.0792,71.01,97.62,97.62,191,277
+powiat wieluński__łódzkie,Powiat wieluński,łódzkie,76081,926.48,73,72,65,65,0.0788,95.95,89.04,89.04,192,71
+powiat inowrocławski__kujawsko-pomorskie,Powiat inowrocławski,kujawsko-pomorskie,159311,1225.18,96,94,84,85,0.0784,60.26,87.50,88.54,193,343
+powiat kamiennogórski__dolnośląskie,Powiat kamiennogórski,dolnośląskie,43055,395.69,31,30,27,27,0.0783,72.00,87.10,87.10,194,268
+powiat jaworski__dolnośląskie,Powiat jaworski,dolnośląskie,49937,581.55,45,42,39,40,0.0774,90.11,86.67,88.89,195,111
+powiat lubelski__lubelskie,Powiat lubelski,lubelskie,156002,1679.53,129,123,121,120,0.0768,82.69,93.80,93.02,196,184
+powiat toruński__kujawsko-pomorskie,Powiat toruński,kujawsko-pomorskie,108938,1230.42,94,93,85,86,0.0764,86.29,90.43,91.49,197,150
+powiat kolbuszowski__podkarpackie,Powiat kolbuszowski,podkarpackie,62196,773.17,59,54,55,55,0.0763,94.86,93.22,93.22,198,78
+powiat koniński__wielkopolskie,Powiat koniński,wielkopolskie,130005,1578.24,120,120,111,112,0.0760,92.30,92.50,93.33,199,97
+powiat szamotulski__wielkopolskie,Powiat szamotulski,wielkopolskie,91720,1119.29,85,83,77,77,0.0759,92.67,90.59,90.59,200,93
+powiat chodzieski__wielkopolskie,Powiat chodzieski,wielkopolskie,46955,685.06,52,51,40,42,0.0759,110.74,76.92,80.77,201,20
+powiat radomski__mazowieckie,Powiat radomski,mazowieckie,152237,1529.78,116,112,108,108,0.0758,76.20,93.10,93.10,202,237
+powiat starogardzki__pomorskie,Powiat starogardzki,pomorskie,128264,1345.34,102,98,96,96,0.0758,79.52,94.12,94.12,203,213
+powiat kwidzyński__pomorskie,Powiat kwidzyński,pomorskie,83028,834.70,63,59,58,57,0.0755,75.88,92.06,90.48,204,241
+powiat niżański__podkarpackie,Powiat niżański,podkarpackie,66430,785.64,59,58,56,56,0.0751,88.82,94.92,94.92,205,122
+powiat rycki__lubelskie,Powiat rycki,lubelskie,55841,614.53,46,45,41,41,0.0749,82.38,89.13,89.13,206,185
+powiat bolesławiecki__dolnośląskie,Powiat bolesławiecki,dolnośląskie,90032,1303.51,96,92,88,88,0.0736,106.63,91.67,91.67,207,29
+powiat łaski__łódzkie,Powiat łaski,łódzkie,49794,618.23,45,45,41,42,0.0728,90.37,91.11,93.33,208,107
+powiat turecki__wielkopolskie,Powiat turecki,wielkopolskie,83818,929.43,67,65,64,64,0.0721,79.94,95.52,95.52,209,208
+powiat żagański__lubuskie,Powiat żagański,lubuskie,78634,1131.82,81,79,76,77,0.0716,103.01,93.83,95.06,210,42
+powiat kolski__wielkopolskie,Powiat kolski,wielkopolskie,86473,1010.71,71,69,62,62,0.0702,82.11,87.32,87.32,211,189
+powiat kłodzki__dolnośląskie,Powiat kłodzki,dolnośląskie,157191,1643.30,115,114,98,100,0.0700,73.16,85.22,86.96,212,258
+powiat ząbkowicki__dolnośląskie,Powiat ząbkowicki,dolnośląskie,64486,801.53,56,54,47,47,0.0699,86.84,83.93,83.93,213,146
+powiat kaliski__wielkopolskie,Powiat kaliski,wielkopolskie,83035,1159.99,79,76,73,73,0.0681,95.14,92.41,92.41,214,75
+powiat polkowicki__dolnośląskie,Powiat polkowicki,dolnośląskie,63082,779.46,53,53,49,49,0.0680,84.02,92.45,92.45,215,162
+powiat kutnowski__łódzkie,Powiat kutnowski,łódzkie,96126,886.86,60,59,58,58,0.0677,62.42,96.67,96.67,216,335
+powiat garwoliński__mazowieckie,Powiat garwoliński,mazowieckie,108940,1284.83,85,83,77,76,0.0662,78.02,90.59,89.41,217,223
+powiat stargardzki__zachodniopomorskie,Powiat stargardzki,zachodniopomorskie,120151,1519.94,100,98,87,90,0.0658,83.23,87.00,90.00,218,174
+powiat żarski__lubuskie,Powiat żarski,lubuskie,95801,1392.78,91,90,84,85,0.0653,94.99,92.31,93.41,219,76
+powiat grójecki__mazowieckie,Powiat grójecki,mazowieckie,98173,1267.73,82,80,72,72,0.0647,83.53,87.80,87.80,220,167
+powiat kraśnicki__lubelskie,Powiat kraśnicki,lubelskie,95064,1005.30,65,64,62,62,0.0647,68.37,95.38,95.38,221,302
+powiat legnicki__dolnośląskie,Powiat legnicki,dolnośląskie,55210,744.08,48,47,44,44,0.0645,86.94,91.67,91.67,222,144
+powiat strzeliński__dolnośląskie,Powiat strzeliński,dolnośląskie,43456,622.06,40,39,36,35,0.0643,92.05,90.00,87.50,223,101
+powiat wschowski__lubuskie,Powiat wschowski,lubuskie,38787,624.20,40,40,33,33,0.0641,103.13,82.50,82.50,224,40
+powiat gorzowski__lubuskie,Powiat gorzowski,lubuskie,72054,1214.23,77,74,76,75,0.0634,106.86,98.70,97.40,225,27
+powiat chojnicki__pomorskie,Powiat chojnicki,pomorskie,97677,1364.21,86,84,80,80,0.0630,88.05,93.02,93.02,226,130
+powiat złotoryjski__dolnośląskie,Powiat złotoryjski,dolnośląskie,43274,575.81,36,35,32,32,0.0625,83.19,88.89,88.89,227,176
+powiat kluczborski__opolskie,Powiat kluczborski,opolskie,65266,851.91,53,53,50,50,0.0622,81.21,94.34,94.34,228,196
+powiat nakielski__kujawsko-pomorskie,Powiat nakielski,kujawsko-pomorskie,86226,1120.08,69,68,66,66,0.0616,80.02,95.65,95.65,229,206
+powiat wągrowiecki__wielkopolskie,Powiat wągrowiecki,wielkopolskie,70216,1039.65,64,63,57,58,0.0616,91.15,89.06,90.63,230,103
+powiat brodnicki__kujawsko-pomorskie,Powiat brodnicki,kujawsko-pomorskie,79129,1039.97,64,61,56,60,0.0615,80.88,87.50,93.75,231,199
+powiat ostrzeszowski__wielkopolskie,Powiat ostrzeszowski,wielkopolskie,55436,772.63,47,47,43,43,0.0608,84.78,91.49,91.49,232,158
+powiat wieruszowski__łódzkie,Powiat wieruszowski,łódzkie,42050,577.13,35,34,34,34,0.0606,83.23,97.14,97.14,233,173
+powiat ciechanowski__mazowieckie,Powiat ciechanowski,mazowieckie,89213,1059.80,64,62,58,60,0.0604,71.74,90.63,93.75,234,270
+powiat świebodziński__lubuskie,Powiat świebodziński,lubuskie,55678,936.57,56,54,52,51,0.0598,100.58,92.86,91.07,235,51
+powiat łowicki__łódzkie,Powiat łowicki,łódzkie,77842,988.17,59,58,52,52,0.0597,75.79,88.14,88.14,236,242
+powiat iławski__warmińsko-mazurskie,Powiat iławski,warmińsko-mazurskie,92826,1385.22,82,78,75,78,0.0592,88.34,91.46,95.12,237,127
+powiat świecki__kujawsko-pomorskie,Powiat świecki,kujawsko-pomorskie,98930,1474.18,87,85,77,78,0.0590,87.94,88.51,89.66,238,132
+powiat brzeziński__łódzkie,Powiat brzeziński,łódzkie,30793,358.56,21,21,19,19,0.0586,68.20,90.48,90.48,239,306
+powiat słupecki__wielkopolskie,Powiat słupecki,wielkopolskie,59029,838.01,49,48,49,49,0.0585,83.01,100.00,100.00,240,181
+powiat wołowski__dolnośląskie,Powiat wołowski,dolnośląskie,46725,674.96,39,36,37,36,0.0578,83.47,94.87,92.31,241,168
+powiat chełmiński__kujawsko-pomorskie,Powiat chełmiński,kujawsko-pomorskie,51817,526.94,30,28,29,29,0.0569,57.90,96.67,96.67,242,356
+powiat kazimierski__świętokrzyskie,Powiat kazimierski,świętokrzyskie,33489,422.18,24,24,21,21,0.0568,71.67,87.50,87.50,243,271
+powiat łukowski__lubelskie,Powiat łukowski,lubelskie,106591,1394.21,79,76,74,75,0.0567,74.12,93.67,94.94,244,255
+powiat sanocki__podkarpackie,Powiat sanocki,podkarpackie,94166,1156.43,65,65,61,62,0.0562,69.03,93.85,95.38,245,297
+powiat pajęczański__łódzkie,Powiat pajęczański,łódzkie,51071,803.82,45,45,42,42,0.0560,88.11,93.33,93.33,246,129
+powiat szydłowiecki__mazowieckie,Powiat szydłowiecki,mazowieckie,39547,451.81,25,23,25,25,0.0553,63.22,100.00,100.00,247,332
+powiat staszowski__świętokrzyskie,Powiat staszowski,świętokrzyskie,71574,924.80,51,50,49,49,0.0551,71.25,96.08,96.08,248,276
+powiat sieradzki__łódzkie,Powiat sieradzki,łódzkie,117370,1490.83,82,79,78,79,0.0550,69.86,95.12,96.34,249,287
+powiat żniński__kujawsko-pomorskie,Powiat żniński,kujawsko-pomorskie,70070,984.77,54,51,49,49,0.0548,77.07,90.74,90.74,250,231
+powiat ełcki__warmińsko-mazurskie,Powiat ełcki,warmińsko-mazurskie,91613,1112.79,61,52,54,54,0.0548,66.58,88.52,88.52,251,322
+powiat lwówecki__dolnośląskie,Powiat lwówecki,dolnośląskie,45770,709.69,38,37,36,37,0.0535,83.02,94.74,97.37,252,179
+powiat nowodworski__pomorskie,Powiat nowodworski,pomorskie,35483,674.08,36,34,33,32,0.0534,101.46,91.67,88.89,253,46
+powiat łęczyński__lubelskie,Powiat łęczyński,lubelskie,57298,636.64,34,34,32,32,0.0534,59.34,94.12,94.12,254,353
+powiat zielonogórski__lubuskie,Powiat zielonogórski,lubuskie,75646,1349.75,72,72,69,69,0.0533,95.18,95.83,95.83,255,73
+powiat mławski__mazowieckie,Powiat mławski,mazowieckie,72448,1181.82,63,60,52,55,0.0533,86.96,82.54,87.30,256,143
+powiat goleniowski__zachodniopomorskie,Powiat goleniowski,zachodniopomorskie,82396,1615.48,86,83,77,79,0.0532,104.37,89.53,91.86,257,33
+powiat kościerski__pomorskie,Powiat kościerski,pomorskie,72808,1165.67,62,60,57,58,0.0532,85.16,91.94,93.55,258,155
+powiat oleski__opolskie,Powiat oleski,opolskie,64167,973.38,51,51,47,47,0.0524,79.48,92.16,92.16,259,214
+powiat biłgorajski__lubelskie,Powiat biłgorajski,lubelskie,100617,1681.10,88,83,78,78,0.0523,87.46,88.64,88.64,260,136
+powiat głubczycki__opolskie,Powiat głubczycki,opolskie,45291,672.63,35,35,29,30,0.0520,77.28,82.86,85.71,261,229
+powiat radomszczański__łódzkie,Powiat radomszczański,łódzkie,112255,1442.57,75,72,72,72,0.0520,66.81,96.00,96.00,262,317
+powiat rawski__łódzkie,Powiat rawski,łódzkie,48504,646.20,33,31,29,29,0.0511,68.04,87.88,87.88,263,307
+powiat gryficki__zachodniopomorskie,Powiat gryficki,zachodniopomorskie,60025,1021.05,52,52,46,46,0.0509,86.63,88.46,88.46,264,148
+powiat sławieński__zachodniopomorskie,Powiat sławieński,zachodniopomorskie,56010,1043.20,53,47,45,45,0.0508,94.63,84.91,84.91,265,81
+powiat nowomiejski__warmińsko-mazurskie,Powiat nowomiejski,warmińsko-mazurskie,43769,693.93,35,32,34,35,0.0504,79.97,97.14,100.00,266,207
+powiat lubartowski__lubelskie,Powiat lubartowski,lubelskie,88152,1288.74,63,63,58,59,0.0489,71.47,92.06,93.65,267,273
+powiat mogileński__kujawsko-pomorskie,Powiat mogileński,kujawsko-pomorskie,45514,675.12,33,32,31,31,0.0489,72.51,93.94,93.94,268,265
+powiat jędrzejowski__świętokrzyskie,Powiat jędrzejowski,świętokrzyskie,85179,1256.96,61,59,60,59,0.0485,71.61,98.36,96.72,269,272
+powiat płocki__mazowieckie,Powiat płocki,mazowieckie,110927,1796.63,87,83,76,76,0.0484,78.43,87.36,87.36,270,221
+powiat milicki__dolnośląskie,Powiat milicki,dolnośląskie,36913,714.93,34,33,32,32,0.0476,92.11,94.12,94.12,271,100
+powiat konecki__świętokrzyskie,Powiat konecki,świętokrzyskie,79525,1139.72,54,53,49,49,0.0474,67.90,90.74,90.74,272,310
+powiat działdowski__warmińsko-mazurskie,Powiat działdowski,warmińsko-mazurskie,64966,953.93,45,45,44,44,0.0472,69.27,97.78,97.78,273,294
+powiat opoczyński__łódzkie,Powiat opoczyński,łódzkie,75847,1040.19,49,48,44,44,0.0471,64.60,89.80,89.80,274,328
+powiat czarnkowsko-trzcianecki__wielkopolskie,Powiat czarnkowsko-trzcianecki,wielkopolskie,86868,1806.05,85,84,74,74,0.0471,97.85,87.06,87.06,275,67
+powiat przemyski__podkarpackie,Powiat przemyski,podkarpackie,73968,1211.22,57,57,53,53,0.0471,77.06,92.98,92.98,276,232
+powiat słubicki__lubuskie,Powiat słubicki,lubuskie,46897,999.29,46,43,42,42,0.0460,98.09,91.30,91.30,277,66
+powiat ostródzki__warmińsko-mazurskie,Powiat ostródzki,warmińsko-mazurskie,103895,1766.29,81,78,79,79,0.0459,77.96,97.53,97.53,278,224
+powiat kozienicki__mazowieckie,Powiat kozienicki,mazowieckie,59793,916.10,42,41,39,40,0.0458,70.24,92.86,95.24,279,282
+powiat golubsko-dobrzyński__kujawsko-pomorskie,Powiat golubsko-dobrzyński,kujawsko-pomorskie,44952,612.85,28,28,25,25,0.0457,62.29,89.29,89.29,280,336
+powiat sztumski__pomorskie,Powiat sztumski,pomorskie,41141,730.74,33,33,25,26,0.0452,80.21,75.76,78.79,281,204
+powiat międzychodzki__wielkopolskie,Powiat międzychodzki,wielkopolskie,36686,736.44,33,31,30,29,0.0448,89.95,90.91,87.88,282,114
+powiat piotrkowski__łódzkie,Powiat piotrkowski,łódzkie,91360,1428.74,64,61,62,61,0.0448,70.05,96.88,95.31,283,285
+powiat buski__świętokrzyskie,Powiat buski,świętokrzyskie,71451,968.00,43,43,39,39,0.0444,60.18,90.70,90.70,284,345
+powiat grudziądzki__kujawsko-pomorskie,Powiat grudziądzki,kujawsko-pomorskie,40202,727.76,32,32,31,31,0.0440,79.60,96.88,96.88,285,211
+powiat kamieński__zachodniopomorskie,Powiat kamieński,zachodniopomorskie,46861,1007.16,44,43,39,39,0.0437,93.89,88.64,88.64,286,87
+powiat węgrowski__mazowieckie,Powiat węgrowski,mazowieckie,65641,1220.76,53,53,44,45,0.0434,80.74,83.02,84.91,287,200
+powiat lipnowski__kujawsko-pomorskie,Powiat lipnowski,kujawsko-pomorskie,65574,1015.74,44,43,42,42,0.0433,67.10,95.45,95.45,288,315
+powiat opolski__lubelskie,Powiat opolski,lubelskie,58952,810.02,35,35,33,34,0.0432,59.37,94.29,97.14,289,352
+powiat namysłowski__opolskie,Powiat namysłowski,opolskie,42680,748.18,32,31,27,29,0.0428,74.98,84.38,90.63,290,250
+powiat rypiński__kujawsko-pomorskie,Powiat rypiński,kujawsko-pomorskie,43408,586.47,25,25,23,23,0.0426,57.59,92.00,92.00,291,357
+powiat janowski__lubelskie,Powiat janowski,lubelskie,45503,875.28,37,35,34,34,0.0423,81.31,91.89,91.89,292,192
+powiat sierpecki__mazowieckie,Powiat sierpecki,mazowieckie,51744,852.04,36,36,33,33,0.0423,69.57,91.67,91.67,293,291
+powiat białobrzeski__mazowieckie,Powiat białobrzeski,mazowieckie,33332,639.10,27,27,24,24,0.0422,81.00,88.89,88.89,294,198
+powiat białostocki__podlaskie,Powiat białostocki,podlaskie,150333,2976.44,125,122,113,118,0.0420,83.15,90.40,94.40,295,177
+powiat zwoleński__mazowieckie,Powiat zwoleński,mazowieckie,36026,573.30,24,24,23,22,0.0419,66.62,95.83,91.67,296,320
+powiat tomaszowski__lubelskie,Powiat tomaszowski,lubelskie,82337,1488.89,62,56,56,57,0.0416,75.30,90.32,91.94,297,246
+powiat radzyński__lubelskie,Powiat radzyński,lubelskie,58604,965.06,40,40,37,38,0.0414,68.25,92.50,95.00,298,303
+powiat skierniewicki__łódzkie,Powiat skierniewicki,łódzkie,38156,753.38,31,29,29,29,0.0411,81.25,93.55,93.55,299,195
+powiat siedlecki__mazowieckie,Powiat siedlecki,mazowieckie,81402,1603.48,65,64,64,63,0.0405,79.85,98.46,96.92,300,210
+powiat ostrowski__mazowieckie,Powiat ostrowski,mazowieckie,72091,1217.79,49,48,45,45,0.0402,67.97,91.84,91.84,301,309
+powiat łęczycki__łódzkie,Powiat łęczycki,łódzkie,49562,772.75,31,31,28,29,0.0401,62.55,90.32,93.55,302,334
+powiat olsztyński__warmińsko-mazurskie,Powiat olsztyński,warmińsko-mazurskie,127205,2838.02,113,106,106,108,0.0398,88.83,93.81,95.58,303,121
+powiat myśliborski__zachodniopomorskie,Powiat myśliborski,zachodniopomorskie,65426,1182.40,47,46,44,44,0.0397,71.84,93.62,93.62,304,269
+powiat włocławski__kujawsko-pomorskie,Powiat włocławski,kujawsko-pomorskie,85893,1473.63,58,55,48,48,0.0394,67.53,82.76,82.76,305,313
+powiat płoński__mazowieckie,Powiat płoński,mazowieckie,86868,1379.79,54,52,50,51,0.0391,62.16,92.59,94.44,306,337
+powiat białogardzki__zachodniopomorskie,Powiat białogardzki,zachodniopomorskie,47434,845.46,33,33,30,30,0.0390,69.57,90.91,90.91,307,292
+powiat krośnieński__lubuskie,Powiat krośnieński,lubuskie,54706,1391.25,54,51,49,50,0.0388,98.71,90.74,92.59,308,61
+powiat pułtuski__mazowieckie,Powiat pułtuski,mazowieckie,51817,827.42,32,32,26,26,0.0387,61.76,81.25,81.25,309,339
+powiat słupski__pomorskie,Powiat słupski,pomorskie,98781,2304.24,89,82,80,82,0.0386,90.10,89.89,92.13,310,112
+powiat pyrzycki__zachodniopomorskie,Powiat pyrzycki,zachodniopomorskie,39251,726.00,28,28,25,25,0.0386,71.34,89.29,89.29,311,275
+powiat włoszczowski__świętokrzyskie,Powiat włoszczowski,świętokrzyskie,44933,907.86,35,35,34,34,0.0386,77.89,97.14,97.14,312,225
+powiat zamojski__lubelskie,Powiat zamojski,lubelskie,105839,1870.29,72,70,68,69,0.0385,68.03,94.44,95.83,313,308
+powiat miechowski__małopolskie,Powiat miechowski,małopolskie,48689,676.29,26,26,25,25,0.0384,53.40,96.15,96.15,314,374
+powiat pińczowski__świętokrzyskie,Powiat pińczowski,świętokrzyskie,38691,612.85,23,23,21,21,0.0375,59.45,91.30,91.30,315,351
+powiat gostyniński__mazowieckie,Powiat gostyniński,mazowieckie,44761,614.81,23,21,20,19,0.0374,51.38,86.96,82.61,316,378
+powiat lidzbarski__warmińsko-mazurskie,Powiat lidzbarski,warmińsko-mazurskie,41039,925.00,34,34,25,32,0.0368,82.85,73.53,94.12,317,182
+powiat mrągowski__warmińsko-mazurskie,Powiat mrągowski,warmińsko-mazurskie,49660,1065.38,39,36,33,35,0.0366,78.53,84.62,89.74,318,219
+powiat radziejowski__kujawsko-pomorskie,Powiat radziejowski,kujawsko-pomorskie,40211,607.20,22,21,21,21,0.0362,54.71,95.45,95.45,319,369
+powiat wąbrzeski__kujawsko-pomorskie,Powiat wąbrzeski,kujawsko-pomorskie,34115,501.95,18,18,16,16,0.0359,52.76,88.89,88.89,320,377
+powiat makowski__mazowieckie,Powiat makowski,mazowieckie,44667,1064.63,38,38,33,36,0.0357,85.07,86.84,94.74,321,157
+powiat zambrowski__podlaskie,Powiat zambrowski,podlaskie,43390,733.12,26,26,22,24,0.0355,59.92,84.62,92.31,322,348
+powiat międzyrzecki__lubuskie,Powiat międzyrzecki,lubuskie,57374,1387.61,49,49,47,47,0.0353,85.40,95.92,95.92,323,154
+powiat sępoleński__kujawsko-pomorskie,Powiat sępoleński,kujawsko-pomorskie,40922,791.09,27,26,25,26,0.0341,65.98,92.59,96.30,324,324
+powiat grajewski__podlaskie,Powiat grajewski,podlaskie,47039,967.62,33,33,29,29,0.0341,70.15,87.88,87.88,325,283
+powiat krasnostawski__lubelskie,Powiat krasnostawski,lubelskie,62940,1031.44,35,34,31,31,0.0339,55.61,88.57,88.57,326,364
+powiat człuchowski__pomorskie,Powiat człuchowski,pomorskie,55933,1575.27,53,51,47,47,0.0336,94.76,88.68,88.68,327,79
+powiat tucholski__kujawsko-pomorskie,Powiat tucholski,kujawsko-pomorskie,48338,1075.46,36,36,34,34,0.0335,74.48,94.44,94.44,328,254
+powiat koszaliński__zachodniopomorskie,Powiat koszaliński,zachodniopomorskie,66465,1653.46,55,54,51,51,0.0333,82.75,92.73,92.73,329,183
+powiat gryfiński__zachodniopomorskie,Powiat gryfiński,zachodniopomorskie,81598,1869.11,61,59,58,58,0.0326,74.76,95.08,95.08,330,253
+powiat wałecki__zachodniopomorskie,Powiat wałecki,zachodniopomorskie,52929,1414.98,46,43,40,41,0.0325,86.91,86.96,89.13,331,145
+powiat górowski__dolnośląskie,Powiat górowski,dolnośląskie,34698,738.27,24,23,23,23,0.0325,69.17,95.83,95.83,332,295
+powiat elbląski__warmińsko-mazurskie,Powiat elbląski,warmińsko-mazurskie,57056,1415.58,45,42,42,42,0.0318,78.87,93.33,93.33,333,217
+powiat poddębicki__łódzkie,Powiat poddębicki,łódzkie,41037,881.21,28,28,22,22,0.0318,68.23,78.57,78.57,334,305
+powiat opatowski__świętokrzyskie,Powiat opatowski,świętokrzyskie,51834,910.90,28,28,24,25,0.0307,54.02,85.71,89.29,335,373
+powiat złotowski__wielkopolskie,Powiat złotowski,wielkopolskie,69282,1660.17,51,51,47,48,0.0307,73.61,92.16,94.12,336,257
+powiat lubaczowski__podkarpackie,Powiat lubaczowski,podkarpackie,54979,1308.37,40,39,37,37,0.0306,72.76,92.50,92.50,337,264
+powiat strzelecko-drezdenecki__lubuskie,Powiat strzelecko-drezdenecki,lubuskie,48855,1247.86,38,38,33,34,0.0305,77.78,86.84,89.47,338,226
+powiat bytowski__pomorskie,Powiat bytowski,pomorskie,79136,2192.07,66,64,59,59,0.0301,83.40,89.39,89.39,339,171
+powiat kętrzyński__warmińsko-mazurskie,Powiat kętrzyński,warmińsko-mazurskie,62054,1212.99,36,35,34,34,0.0297,58.01,94.44,94.44,340,355
+powiat przysuski__mazowieckie,Powiat przysuski,mazowieckie,41360,801.19,23,22,20,20,0.0287,55.61,86.96,86.96,341,363
+powiat giżycki__warmińsko-mazurskie,Powiat giżycki,warmińsko-mazurskie,56465,1119.51,32,30,28,29,0.0286,56.67,87.50,90.63,342,360
+powiat świdwiński__zachodniopomorskie,Powiat świdwiński,zachodniopomorskie,46526,1093.06,31,29,29,29,0.0284,66.63,93.55,93.55,343,319
+powiat szczecinecki__zachodniopomorskie,Powiat szczecinecki,zachodniopomorskie,77394,1765.42,50,48,46,46,0.0283,64.60,92.00,92.00,344,327
+powiat sokołowski__mazowieckie,Powiat sokołowski,mazowieckie,53617,1131.17,32,32,28,28,0.0283,59.68,87.50,87.50,345,350
+powiat sulęciński__lubuskie,Powiat sulęciński,lubuskie,35110,1177.80,33,32,31,31,0.0280,93.99,93.94,93.94,346,86
+powiat bialski__lubelskie,Powiat bialski,lubelskie,110454,2754.26,77,75,71,71,0.0280,69.71,92.21,92.21,347,289
+powiat żuromiński__mazowieckie,Powiat żuromiński,mazowieckie,38337,806.60,22,20,21,21,0.0273,57.39,95.45,95.45,348,358
+powiat ostrołęcki__mazowieckie,Powiat ostrołęcki,mazowieckie,88624,2093.55,57,56,51,52,0.0272,64.32,89.47,91.23,349,329
+powiat hrubieszowski__lubelskie,Powiat hrubieszowski,lubelskie,62473,1268.02,34,32,30,30,0.0268,54.42,88.24,88.24,350,371
+powiat wysokomazowiecki__podlaskie,Powiat wysokomazowiecki,podlaskie,56652,1288.91,34,34,30,31,0.0264,60.02,88.24,91.18,351,346
+powiat nidzicki__warmińsko-mazurskie,Powiat nidzicki,warmińsko-mazurskie,32753,960.64,25,25,25,25,0.0260,76.33,100.00,100.00,352,236
+powiat bartoszycki__warmińsko-mazurskie,Powiat bartoszycki,warmińsko-mazurskie,56891,1307.49,34,33,33,33,0.0260,59.76,97.06,97.06,353,349
+powiat lipski__mazowieckie,Powiat lipski,mazowieckie,33738,740.22,19,19,16,16,0.0257,56.32,84.21,84.21,354,361
+powiat choszczeński__zachodniopomorskie,Powiat choszczeński,zachodniopomorskie,48035,1327.63,34,33,31,31,0.0256,70.78,91.18,91.18,355,278
+powiat szczycieński__warmińsko-mazurskie,Powiat szczycieński,warmińsko-mazurskie,69263,1933.21,48,46,48,48,0.0248,69.30,100.00,100.00,356,293
+powiat przasnyski__mazowieckie,Powiat przasnyski,mazowieckie,52355,1218.62,30,29,26,27,0.0246,57.30,86.67,90.00,357,359
+powiat węgorzewski__warmińsko-mazurskie,Powiat węgorzewski,warmińsko-mazurskie,22555,693.22,17,13,15,16,0.0245,75.37,88.24,94.12,358,245
+powiat augustowski__podlaskie,Powiat augustowski,podlaskie,57908,1659.39,40,36,35,35,0.0241,69.08,87.50,87.50,359,296
+powiat olecki__warmińsko-mazurskie,Powiat olecki,warmińsko-mazurskie,34050,873.60,21,19,19,19,0.0240,61.67,90.48,90.48,360,340
+powiat leski__podkarpackie,Powiat leski,podkarpackie,26413,834.94,20,20,18,18,0.0240,75.72,90.00,90.00,361,243
+powiat gołdapski__warmińsko-mazurskie,Powiat gołdapski,warmińsko-mazurskie,26625,772.29,18,17,14,14,0.0233,67.61,77.78,77.78,362,312
+powiat braniewski__warmińsko-mazurskie,Powiat braniewski,warmińsko-mazurskie,40927,1201.65,28,28,25,25,0.0233,68.41,89.29,89.29,363,301
+powiat chełmski__lubelskie,Powiat chełmski,lubelskie,77752,1885.60,43,42,42,42,0.0228,55.30,97.67,97.67,364,367
+powiat hajnowski__podlaskie,Powiat hajnowski,podlaskie,42293,1623.53,36,35,33,33,0.0222,85.12,91.67,91.67,365,156
+powiat parczewski__lubelskie,Powiat parczewski,lubelskie,34590,952.20,21,21,19,19,0.0221,60.71,90.48,90.48,366,342
+powiat łosicki__mazowieckie,Powiat łosicki,mazowieckie,30658,772.45,17,17,16,16,0.0220,55.45,94.12,94.12,367,366
+powiat piski__warmińsko-mazurskie,Powiat piski,warmińsko-mazurskie,55952,1774.58,39,33,37,37,0.0220,69.70,94.87,94.87,368,290
+powiat bielski__podlaskie,Powiat bielski,podlaskie,54058,1385.09,30,29,28,28,0.0217,55.50,93.33,93.33,369,365
+powiat drawski__zachodniopomorskie,Powiat drawski,zachodniopomorskie,56842,1764.24,38,35,36,36,0.0215,66.85,94.74,94.74,370,316
+powiat łomżyński__podlaskie,Powiat łomżyński,podlaskie,50894,1354.59,28,27,27,27,0.0207,55.02,96.43,96.43,371,368
+powiat łobeski__zachodniopomorskie,Powiat łobeski,zachodniopomorskie,36514,1065.13,22,22,20,20,0.0207,60.25,90.91,90.91,372,344
+powiat siemiatycki__podlaskie,Powiat siemiatycki,podlaskie,43910,1459.46,29,27,26,26,0.0199,66.04,89.66,89.66,373,323
+powiat włodawski__lubelskie,Powiat włodawski,lubelskie,38207,1256.42,24,24,22,23,0.0191,62.82,91.67,95.83,374,333
+powiat kolneński__podlaskie,Powiat kolneński,podlaskie,37983,940.10,17,16,15,16,0.0181,44.76,88.24,94.12,375,380
+powiat sokólski__podlaskie,Powiat sokólski,podlaskie,66286,2054.50,37,35,35,35,0.0180,55.82,94.59,94.59,376,362
+powiat sejneński__podlaskie,Powiat sejneński,podlaskie,19807,855.17,13,11,12,12,0.0152,65.63,92.31,92.31,377,325
+powiat suwalski__podlaskie,Powiat suwalski,podlaskie,35606,1307.00,19,14,19,19,0.0145,53.36,100.00,100.00,378,375
+powiat moniecki__podlaskie,Powiat moniecki,podlaskie,40251,1381.79,20,18,17,17,0.0145,49.69,85.00,85.00,379,379
+powiat bieszczadzki__podkarpackie,Powiat bieszczadzki,podkarpackie,21576,1139.07,14,14,12,12,0.0123,64.89,85.71,85.71,380,326

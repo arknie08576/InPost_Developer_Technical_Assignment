@@ -36,7 +36,7 @@ build/
 *.db
 *.sqlite
 *.sqlite3
-output/
+#output/
 
 ### Handoff doc — do not publish ###
 PROJECT_CONTEXT.md
